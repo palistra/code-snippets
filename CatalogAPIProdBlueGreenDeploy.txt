@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Attempting to create cloudantNoSQLDB Lite myMicroservicesCloudant for use by the microservices. Iy is not a problem if it already exists, we simply continue."
+echo "Attempting to create cloudantNoSQLDB Lite myMicroservicesCloudant for use by the microservices. It is not a problem if it already exists, we simply continue."
 cf create-service cloudantNoSQLDB Lite myMicroservicesCloudant
 export CF_APP_NAME="prod-$CF_APP"
 # Push app
